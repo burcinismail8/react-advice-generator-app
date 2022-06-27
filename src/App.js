@@ -15,7 +15,7 @@ function App() {
   };
   return (
     <div className="App font-sans bg-gray w-full h-screen flex items-center justify-center">
-      <div className="card flex flex-col justify-center space-y-10 items-center bg-card-gray w-1/2 h-1/2 rounded-2xl px-5 pt-8 pb-10">
+      <div className="card flex flex-col justify-center space-y-10 items-center bg-card-gray md:w-1/2 md:h-1/2 rounded-2xl px-5 pt-8 pb-10 m-7">
         <h4 className="advice-num text-card-num text-xl tracking-widest">
           ADVICE #{adviceNum}
         </h4>
